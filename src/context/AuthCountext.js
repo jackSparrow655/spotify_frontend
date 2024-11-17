@@ -9,7 +9,7 @@ import axios from 'axios'
   
   const AuthContextProvider =({children}) => {
     
-    const url = 'https://spotify-backend-xi.vercel.app/api/v1'
+    const url = 'https://spotify-backend-beta-ten.vercel.app/api/v1'
     const [isLoggedIn, setIsLoggedIn] = useState(false)
     const navigate = useNavigate()
     
