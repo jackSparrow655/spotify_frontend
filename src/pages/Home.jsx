@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext} from "react";
 import Sidebar from "../components/Sidebar";
 import Player from "../components/Player";
 import Display from "../components/Display";
@@ -8,7 +8,7 @@ import { PlayerContext } from "../context/PlayerContext";
 
 const Home = () => {
     const { audioRef, track, songsData, autoPlayNext} = useContext(PlayerContext);
-
+    
     return (
         <div className="h-screen bg-black">
             {songsData.length !== 0 ? (

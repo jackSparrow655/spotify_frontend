@@ -31,7 +31,7 @@ const Navbar = () => {
           <nav>
               <ul className='flex flex-row gap-5 text-richblack-100 gap-x-6'>
                   <li><Link to='/'>Home</Link></li>
-                  <li><Link to='/about'>About</Link></li>
+                  <li><Link to='/home'>Song</Link></li>
                   <li><Link to='/contact'>Contact</Link></li>
               </ul>
           </nav>
