@@ -13,7 +13,7 @@ const App = () => {
     const {isLoggedIn} = useContext(AuthContext)
     
     return (
-        <div>
+        <div className="scrollbar-hidden">
                 <div className="w-screen min-h-screen bg-richblack-900 flex-col">
                     <Routes>
                         <Route path="/" element=<Dashboard/>/>
