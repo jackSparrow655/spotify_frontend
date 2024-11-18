@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar";
 import Player from "../components/Player";
 import Display from "../components/Display";
 import { PlayerContext } from "../context/PlayerContext";
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 // import { songsData } from "./assets/assets";
 
 const Home = () => {
