@@ -146,7 +146,7 @@ const PlayerContextProvider = (props) => {
     useEffect(() => {
         getAlbumData()
         getSongData();
-    })
+    },[])
     
     
     const [songIndex, setSongIndex] = useState(0);
