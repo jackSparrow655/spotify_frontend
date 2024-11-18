@@ -14,7 +14,7 @@ const DisplayHome = () => {
             <Navbar />
             <div className="mb-4">
                 <h1 className="my-5 font-bold text-2xl">Feature Charts</h1>
-                <div className="flex overflow-auto">
+                <div className="flex overflow-auto scrollbar-hidden">
                     {albumsData.map((item, index) => (
                         <AlbumItem
                             key={index}
@@ -22,13 +22,14 @@ const DisplayHome = () => {
                             desc={item.desc}
                             id={item._id}
                             image={item.image}
+                            className="object-cover"
                         />
                     ))}
                 </div>
             </div>
             <div className="mb-4">
                 <h1 className="my-5 font-bold text-2xl">Todays Biggest Hits</h1>
-                <div className="flex overflow-auto">
+                <div className="flex overflow-auto scrollbar-hidden object-cover">
                     {songsData.map((item, index) => (
                         <SongItem
                             key={index}
